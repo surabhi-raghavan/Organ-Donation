@@ -97,4 +97,4 @@ insert into User values
 ( 96 ,'Name-96','1987-2-4',1,'NIL','Street-96','Kolkata','West Bengal'),
 ( 97 ,'Name-97','1985-12-22',1,'NIL','Street-97','Kolkata','West Bengal'),
 ( 98 ,'Name-98','1981-8-6',1,'NIL','Street-98','Mumbai','Maharashtra'),
-( 99 ,'Name-99','1978-1-15',1,'NIL','Street-99','Kolkata','West Bengal')
+( 99 ,'Name-99','1978-1-15',1,'NIL','Street-99','Kolkata','West Bengal');

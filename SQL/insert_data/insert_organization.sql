@@ -97,4 +97,4 @@ insert into Organization values
 (96, 'Organization-96','Kolkata',1),
 (97, 'Organization-97','New Delhi',0),
 (98, 'Organization-98','Mumbai',1),
-(99, 'Organization-99','New Delhi',0)
+(99, 'Organization-99','New Delhi',0);

@@ -1043,7 +1043,8 @@ def seen_message():
     return redirect(url_for('see_messages'))
 
 @app.route('/statistics', methods=['GET','POST'])
-def stats():
+def statistics():
+    plt.switch_backend('Agg')
     if not session.get('login') or not session.get('isAdmin'):
         return redirect( url_for('home') )
     qry = "select organ_donated, count(Donor_ID) from Donor group by organ_donated"
