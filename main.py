@@ -1,8 +1,7 @@
 import matplotlib.pyplot as plt
 import mysql.connector
 import numpy as np
-from flask import (Flask, flash, redirect, render_template, request, session,
-                   url_for)
+from flask import Flask, redirect, render_template, request, session, url_for
 
 mydb = mysql.connector.connect(
   host='localhost',
@@ -499,7 +498,7 @@ def update_user_page():
     upd_res=[None]*len(fields_upd)
     return render_template('update_user_page.html',fields = fields_upd,res = upd_res)
 
-@app.route("/update_user_details",methods = ['GET','POST'])
+@app.route("/update_details",methods = ['GET','POST'])
 def update_details():
     if not session.get('login'):
         return redirect( url_for('home') )
